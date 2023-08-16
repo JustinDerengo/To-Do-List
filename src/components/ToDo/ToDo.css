@@ -1,0 +1,33 @@
+
+.creature-entries {
+display: flex;
+flex-wrap: wrap;
+}
+
+.dimmed {
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px solid gray;
+    background-color: lightcyan;
+    text-align: center;
+    color: gray;
+    word-wrap: break-word;
+}
+
+.highlight {
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px solid gray;
+    background-color: goldenrod;
+    text-align: center;
+    color: maroon;
+    word-wrap: break-word;
+}
