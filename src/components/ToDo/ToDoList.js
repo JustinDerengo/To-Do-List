@@ -1,11 +1,13 @@
 import React from 'react'
 import ToDo from './ToDo'
 import ToDoForm from './ToDoForm';
+import {useNavigate} from 'react-router-dom';
 import './ToDo.css'
 
 
 
 const ToDoList = ({toDoList, handleToggle, addTask, handleRemove}) => {
+    const navigate = useNavigate();
     return (
         <div>
             <div className="creature-entries">
@@ -13,7 +15,7 @@ const ToDoList = ({toDoList, handleToggle, addTask, handleRemove}) => {
                     return (
                         <div key={todo.id}>
                         <ToDo todo={todo} handleToggle={handleToggle} handleRemove={handleRemove} toDoList={toDoList}/>
-                        <button onClick={() => handleRemove(todo.id)}>Remove</button>
+                        <button onClick={() => handleRemove(todo.id)} className="remove">Remove</button>
                         </div>
                     )
                 })}
@@ -21,6 +23,10 @@ const ToDoList = ({toDoList, handleToggle, addTask, handleRemove}) => {
             <div>
                 <ToDoForm addTask={addTask} />
             </div>
+            <div>
+                <button onClick={() => navigate ("/Encountered")} type='submit' class='btn'>View Completed</button>
+            </div>
+            <div><button onClick={() => navigate ("/")} type='submit' class='btn'>Sign Out</button></div>
         </div>
     );
 };

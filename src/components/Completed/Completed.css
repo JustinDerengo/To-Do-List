@@ -1,0 +1,17 @@
+.creature-entries {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.form-submit {
+    padding: 5px;
+    margin: 7px;
+    margin-left:auto;
+    margin-right: auto;
+    border: 3px solid grey;
+    border-radius: 5px;
+    background-color: lightblue;
+    color: grey;
+    width: 100px;
+
+}

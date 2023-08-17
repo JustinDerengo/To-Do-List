@@ -5,10 +5,13 @@ flex-wrap: wrap;
 }
 
 .dimmed {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
     margin: 20px;
     width: 200px;
-    height: 100px;
+    height: 150px;
     margin-left: 30%;
     margin-right: 30%;
     border: 5px solid gray;
@@ -19,10 +22,13 @@ flex-wrap: wrap;
 }
 
 .highlight {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
     margin: 20px;
     width: 200px;
-    height: 100px;
+    height: 150px;
     margin-left: 30%;
     margin-right: 30%;
     border: 5px solid gray;
@@ -30,4 +36,69 @@ flex-wrap: wrap;
     text-align: center;
     color: maroon;
     word-wrap: break-word;
+}
+
+.creature-img {
+    padding: 5px;
+    margin: 5px;
+    width: 100px
+
+}
+
+.remove {
+    padding: 5px;
+    margin: 7px;
+    margin-left:auto;
+    margin-right: auto;
+    border: 3px solid rgb(36, 54, 73);
+    border-radius: 5px;
+    background-color: rgb(175, 129, 54);
+    color: rgb(38, 30, 30);
+    width: 100px;
+}
+.form-input {
+    padding: 2px;
+    margin: 4px;
+
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-submit {
+    padding: 5px;
+    margin: 7px;
+    margin-left:auto;
+    margin-right: auto;
+    border: 3px solid grey;
+    border-radius: 5px;
+    background-color: lightblue;
+    color: grey;
+    width: 100px;
+
+}
+
+.form-box {
+    padding: 20px;
+    margin: 20px;
+    border: 5px solid goldenrod;
+    border-radius: 5px;
+    background-color: lightcyan;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    padding: 5px;
+    margin: 7px;
+    margin-left:auto;
+    margin-right: auto;
+    border: 3px solid rgb(36, 54, 73);
+    border-radius: 5px;
+    background-color: rgb(175, 129, 54);
+    color: rgb(38, 30, 30);
+    width: 100px;
 }

@@ -11,6 +11,7 @@ const ToDo = ({todo, handleToggle,}) => {
     return (
         <div id={todo.id} onClick={handleClick} className={todo.encountered ? "highlight" : "dimmed"}>
            {todo.creature}
+           <img src={todo.img} className="creature-img" alt={todo.creature}/>
             <div>{todo.description}</div>
         </div>
     )

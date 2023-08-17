@@ -3,24 +3,28 @@
         "id": 1,
         "creature": "Dog",
         "description": "A fluffy canine.",
+        "img": "https://cdn.britannica.com/60/8160-050-08CCEABC/German-shepherd.jpg",
         "encountered": true
     },
     {
         "id": 2,
         "creature": "Cat",
         "description":"Feline. Could be cuddly, could be pointy.",
+        "img" : "https://cdn.britannica.com/39/7139-050-A88818BB/Himalayan-chocolate-point.jpg",
         "encountered": true
     },
     {
         "id": 3,
         "creature": "Alligator",
         "description": "A reptile with a mellow personality, but still dangerous",
+        "img": "https://cdn.britannica.com/08/91308-050-59C4DF32/Crocodiles-alligators-teeth-snouts-crocodiles-mouth.jpg",
         "encountered": false
     },
     {
         "id": 4,
         "creature": "Elephant",
-        "description": "Largest land animal. Highly inteligent, and comes with all the variance of that.",
+        "description": "Largest land animal. Highly inteligent big stomper.",
+        "img":"https://cdn.britannica.com/98/94698-050-F64C03A6/African-savanna-elephant.jpg",
         "encountered": false
     }
 ]
