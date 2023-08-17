@@ -5,7 +5,7 @@ import {useNavigate} from 'react-router-dom';
 import './ToDo.css'
 
 
-
+//function takes the mapped objects and passes the JSX to app to make the core of the web page
 const ToDoList = ({toDoList, handleToggle, addTask, handleRemove}) => {
     const navigate = useNavigate();
     return (

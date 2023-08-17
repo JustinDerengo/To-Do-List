@@ -1,6 +1,9 @@
 import React, {useState} from 'react'
 // import axios from 'axios';
 
+
+//function will handle input form to create a new entry in the bestiary. Once linked with a database, it will allow users to upload their own
+//pictures as well
 const ToDoForm = ({ addTask }) => {
 
     const [ userCreature, setUserCreature ] = useState('');

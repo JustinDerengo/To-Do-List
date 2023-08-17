@@ -2,7 +2,9 @@ import React from 'react'
 import './Completed.css'
 import {useNavigate} from 'react-router-dom';
 
-const Completed = ({toDoList, encounteredList, sortEncountered}) => {
+//function will make a page that only displays creaturs that have been encountered by using an inline conditional to see if their 
+//encountered property is true, and then pass the JSX code
+const Completed = ({toDoList}) => {
     const navigate = useNavigate();
     const completeCreature = toDoList.map ((data) => (
         <div key={data.id} >

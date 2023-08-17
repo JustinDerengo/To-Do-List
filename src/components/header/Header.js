@@ -1,5 +1,5 @@
 import React from "react";
-
+//function will make up the header nav bar and the background of the entire website
 export default function Header() {
     return (
         <nav class="bg-dark navbar-dark navbar">

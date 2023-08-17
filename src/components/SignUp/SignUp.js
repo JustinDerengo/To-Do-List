@@ -6,11 +6,11 @@ import {useNavigate, } from 'react-router-dom';
 export default function SignUp() {
 
     const navigate = useNavigate();
-
+    //variables to set the user and their information
     const [userName, setUserName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-
+    //depending on the id of the form input, this will set the correct state.
     const handleInputChange = (e) => {
         e.preventDefault();
         const {id, value} = e.target;
@@ -24,7 +24,7 @@ export default function SignUp() {
             setPassword(value);
         }
     }
-    
+    //this will be used when linked up with a backend data base
     const handleSubmit = () => {
         console.log(userName, email, password);
         navigate('/ToDoList')
